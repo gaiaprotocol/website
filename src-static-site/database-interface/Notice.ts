@@ -5,4 +5,6 @@ export default interface Notice {
   title: I18NText;
   content: I18NText;
   rich?: Rich;
+  created_at: string;
+  updated_at?: string;
 }
